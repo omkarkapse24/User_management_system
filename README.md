@@ -12,7 +12,7 @@ Follow these steps to set up and run the project locally.
 #### 1. Clone the Repository  
 Clone the project from the master branch:  
 ```sh
-git clone [https://github.com/omkarkapse24/User_management_system.git]
+git clone https://github.com/omkarkapse24/User_management_system.git
 ```
 
 #### 2. Navigate to the Project Directory  
