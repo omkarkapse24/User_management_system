@@ -1,0 +1,39 @@
+/* Make the table container scrollable */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+/* Ensure table columns don't shrink too much */
+mat-table {
+  min-width: 600px; /* Adjust as needed */
+}
+
+mat-header-cell, mat-cell {
+  flex: 1;
+  min-width: 150px; /* Prevents excessive shrinking */
+  word-wrap: break-word;
+}
+
+
+
+@media (max-width: 600px) {
+  mat-table, thead, tbody, th, td, tr {
+    /* display: block; */
+    width: 100%;
+  }
+
+  tr {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ccc;
+  }
+
+  td {
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 8px;
+  }
+}
