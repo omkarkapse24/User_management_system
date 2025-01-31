@@ -1,20 +1,56 @@
+# User Management System  
 
- ## To Run the UserManagementSystem feep following steps
+A simple user management system built with Angular and JSON Server.  
 
-1.TO Run the UserManagementsystem firstly clone the repository from master branch.(UserManagementsystem).
+## Getting Started  
 
-2.open the commond line interface type below commond
-    cd User_managmnet_system
+Follow these steps to set up and run the project locally.  
 
-3.Run commond : `npm install`
+### Prerequisites  
+Make sure you have the following installed:  
+- [Node.js](https://nodejs.org/)  
+- [Angular CLI](https://angular.io/cli)  
 
-4.To start the project run below commond
-    `ng serve` for a dev server. 
-    
-5.open new commond line interface and run below commond.
-     `npx json-server db.json`
+### Installation  
 
-8 After that Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### 1. Clone the Repository  
+Clone the project from the master branch:  
+```sh
+git clone https://github.com/your-repository/UserManagementSystem.git
+```
 
+#### 2. Navigate to the Project Directory  
+```sh
+cd UserManagementSystem
+```
 
+#### 3. Install Dependencies  
+Run the following command to install all required dependencies:  
+```sh
+npm install
+```
 
+#### 4. Start the Development Server  
+Run the Angular development server:  
+```sh
+ng serve
+```
+
+#### 5. Start the JSON Server  
+Open a new terminal and run:  
+```sh
+npx json-server db.json
+```
+
+#### 6. Open the Application  
+Once everything is running, open your browser and go to:  
+```
+http://localhost:4200/
+```
+The application will automatically reload if you make any changes to the source files.  
+
+## Contributing  
+Feel free to submit issues and pull requests to improve this project!  
+
+## License  
+This project is licensed under the [MIT License](LICENSE). 
